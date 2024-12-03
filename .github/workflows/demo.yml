@@ -3,6 +3,6 @@ on: [push]
 
 jobs:
  simple:
-  runs-on: ubuntu-lastest
+  runs-on: ubuntu-latest
   steps:
    - run: echo "Hola mundo"
