@@ -1,1 +1,8 @@
+name: Esto es una demo
+on: [push]
 
+jobs:
+ simple:
+  runs-on: ubuntu-lastest
+  steps:
+   - run: echo "Hola mundo"
